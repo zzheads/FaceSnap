@@ -15,9 +15,9 @@ What you'll learn
 - Filtering data with predicates
 
 ####Taking a Selfie
-`
-An essential component of building a selfie app is allowing users to take pictures. There are several ways a user can end up with a photo and over the next set of videos we use the UIImagePickerController class to build this functionality. We'll revisit an important concept - delegates, and understand how we can build objects that are not tightly coupled from the get go.
-`
+
+[An] essential component of building a selfie app is allowing users to take pictures. There are several ways a user can end up with a photo and over the next set of videos we use the UIImagePickerController class to build this functionality. We'll revisit an important concept - delegates, and understand how we can build objects that are not tightly coupled from the get go.
+
 ####Adding Image Filters
 `
 One of the fun parts of our app is applying filters to the images we taken. Over the next set of videos, let's take a look at how we can apply various filters to an image and render it in a view. This isn't as simple as it seems and we'll look at some of the pitfalls we may run into and the resulting considerations we need to make for a great user experience.
