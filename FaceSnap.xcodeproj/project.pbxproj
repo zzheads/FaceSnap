@@ -13,6 +13,20 @@
 		A60FA2B31DDC481F00F0B680 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A60FA2B11DDC481F00F0B680 /* LaunchScreen.storyboard */; };
 		A60FA2BE1DDC481F00F0B680 /* FaceSnapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60FA2BD1DDC481F00F0B680 /* FaceSnapTests.swift */; };
 		A60FA2C91DDC481F00F0B680 /* FaceSnapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60FA2C81DDC481F00F0B680 /* FaceSnapUITests.swift */; };
+		A60FA2D71DDC4C6300F0B680 /* MediaPickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60FA2D61DDC4C6300F0B680 /* MediaPickerManager.swift */; };
+		A60FA2DD1DDC676E00F0B680 /* PhotoFilterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60FA2DC1DDC676E00F0B680 /* PhotoFilterController.swift */; };
+		A60FA2DF1DDC6B3600F0B680 /* FilteredImageBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60FA2DE1DDC6B3600F0B680 /* FilteredImageBuilder.swift */; };
+		A60FA2E11DDC795000F0B680 /* FilteredImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60FA2E01DDC795000F0B680 /* FilteredImageCell.swift */; };
+		A60FA2E31DDC8FC200F0B680 /* PhotoMetadataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60FA2E21DDC8FC200F0B680 /* PhotoMetadataController.swift */; };
+		A60FA2E51DDC95EC00F0B680 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60FA2E41DDC95EC00F0B680 /* LocationManager.swift */; };
+		A6C754C71DDCB06700A5D9E5 /* CoreDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C754C61DDCB06700A5D9E5 /* CoreDataController.swift */; };
+		A6C754CA1DDCB17100A5D9E5 /* FaceSnap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A6C754C81DDCB17100A5D9E5 /* FaceSnap.xcdatamodeld */; };
+		A6C754CC1DDCB47400A5D9E5 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C754CB1DDCB47400A5D9E5 /* Photo.swift */; };
+		A6C754CE1DDCB5FF00A5D9E5 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C754CD1DDCB5FF00A5D9E5 /* Tag.swift */; };
+		A6C754D01DDCB61D00A5D9E5 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C754CF1DDCB61D00A5D9E5 /* Location.swift */; };
+		A6C754D21DDCBEF500A5D9E5 /* PhotoDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C754D11DDCBEF500A5D9E5 /* PhotoDataSource.swift */; };
+		A6C754D41DDCBFA600A5D9E5 /* PhotoFetchedResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C754D31DDCBFA600A5D9E5 /* PhotoFetchedResultsController.swift */; };
+		A6C754D61DDCC23900A5D9E5 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C754D51DDCC23900A5D9E5 /* PhotoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +59,20 @@
 		A60FA2C41DDC481F00F0B680 /* FaceSnapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceSnapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A60FA2C81DDC481F00F0B680 /* FaceSnapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceSnapUITests.swift; sourceTree = "<group>"; };
 		A60FA2CA1DDC481F00F0B680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A60FA2D61DDC4C6300F0B680 /* MediaPickerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaPickerManager.swift; sourceTree = "<group>"; };
+		A60FA2DC1DDC676E00F0B680 /* PhotoFilterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoFilterController.swift; sourceTree = "<group>"; };
+		A60FA2DE1DDC6B3600F0B680 /* FilteredImageBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilteredImageBuilder.swift; sourceTree = "<group>"; };
+		A60FA2E01DDC795000F0B680 /* FilteredImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilteredImageCell.swift; sourceTree = "<group>"; };
+		A60FA2E21DDC8FC200F0B680 /* PhotoMetadataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoMetadataController.swift; sourceTree = "<group>"; };
+		A60FA2E41DDC95EC00F0B680 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		A6C754C61DDCB06700A5D9E5 /* CoreDataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataController.swift; sourceTree = "<group>"; };
+		A6C754C91DDCB17100A5D9E5 /* FaceSnap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FaceSnap.xcdatamodel; sourceTree = "<group>"; };
+		A6C754CB1DDCB47400A5D9E5 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		A6C754CD1DDCB5FF00A5D9E5 /* Tag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		A6C754CF1DDCB61D00A5D9E5 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		A6C754D11DDCBEF500A5D9E5 /* PhotoDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDataSource.swift; sourceTree = "<group>"; };
+		A6C754D31DDCBFA600A5D9E5 /* PhotoFetchedResultsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoFetchedResultsController.swift; sourceTree = "<group>"; };
+		A6C754D51DDCC23900A5D9E5 /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +123,11 @@
 		A60FA2A71DDC481F00F0B680 /* FaceSnap */ = {
 			isa = PBXGroup;
 			children = (
+				A60FA2DB1DDC672600F0B680 /* Model */,
+				A60FA2DA1DDC671900F0B680 /* Controller */,
+				A60FA2D91DDC671000F0B680 /* View */,
+				A60FA2D81DDC670000F0B680 /* Helpers */,
 				A60FA2A81DDC481F00F0B680 /* AppDelegate.swift */,
-				A60FA2AA1DDC481F00F0B680 /* PhotoListController.swift */,
 				A60FA2AF1DDC481F00F0B680 /* Assets.xcassets */,
 				A60FA2B11DDC481F00F0B680 /* LaunchScreen.storyboard */,
 				A60FA2B41DDC481F00F0B680 /* Info.plist */,
@@ -120,6 +151,49 @@
 				A60FA2CA1DDC481F00F0B680 /* Info.plist */,
 			);
 			path = FaceSnapUITests;
+			sourceTree = "<group>";
+		};
+		A60FA2D81DDC670000F0B680 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A60FA2D61DDC4C6300F0B680 /* MediaPickerManager.swift */,
+				A60FA2DE1DDC6B3600F0B680 /* FilteredImageBuilder.swift */,
+				A60FA2E41DDC95EC00F0B680 /* LocationManager.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		A60FA2D91DDC671000F0B680 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A60FA2E01DDC795000F0B680 /* FilteredImageCell.swift */,
+				A6C754D51DDCC23900A5D9E5 /* PhotoCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A60FA2DA1DDC671900F0B680 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A6C754C61DDCB06700A5D9E5 /* CoreDataController.swift */,
+				A60FA2AA1DDC481F00F0B680 /* PhotoListController.swift */,
+				A60FA2DC1DDC676E00F0B680 /* PhotoFilterController.swift */,
+				A60FA2E21DDC8FC200F0B680 /* PhotoMetadataController.swift */,
+				A6C754D31DDCBFA600A5D9E5 /* PhotoFetchedResultsController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A60FA2DB1DDC672600F0B680 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A6C754C81DDCB17100A5D9E5 /* FaceSnap.xcdatamodeld */,
+				A6C754CB1DDCB47400A5D9E5 /* Photo.swift */,
+				A6C754CD1DDCB5FF00A5D9E5 /* Tag.swift */,
+				A6C754CF1DDCB61D00A5D9E5 /* Location.swift */,
+				A6C754D11DDCBEF500A5D9E5 /* PhotoDataSource.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,7 +329,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6C754CE1DDCB5FF00A5D9E5 /* Tag.swift in Sources */,
+				A6C754D21DDCBEF500A5D9E5 /* PhotoDataSource.swift in Sources */,
+				A6C754CA1DDCB17100A5D9E5 /* FaceSnap.xcdatamodeld in Sources */,
+				A60FA2DF1DDC6B3600F0B680 /* FilteredImageBuilder.swift in Sources */,
+				A6C754D61DDCC23900A5D9E5 /* PhotoCell.swift in Sources */,
+				A60FA2D71DDC4C6300F0B680 /* MediaPickerManager.swift in Sources */,
+				A60FA2E11DDC795000F0B680 /* FilteredImageCell.swift in Sources */,
 				A60FA2AB1DDC481F00F0B680 /* PhotoListController.swift in Sources */,
+				A6C754D01DDCB61D00A5D9E5 /* Location.swift in Sources */,
+				A60FA2E51DDC95EC00F0B680 /* LocationManager.swift in Sources */,
+				A6C754C71DDCB06700A5D9E5 /* CoreDataController.swift in Sources */,
+				A6C754CC1DDCB47400A5D9E5 /* Photo.swift in Sources */,
+				A60FA2DD1DDC676E00F0B680 /* PhotoFilterController.swift in Sources */,
+				A6C754D41DDCBFA600A5D9E5 /* PhotoFetchedResultsController.swift in Sources */,
+				A60FA2E31DDC8FC200F0B680 /* PhotoMetadataController.swift in Sources */,
 				A60FA2A91DDC481F00F0B680 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -491,6 +579,7 @@
 				A60FA2CF1DDC481F00F0B680 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A60FA2D01DDC481F00F0B680 /* Build configuration list for PBXNativeTarget "FaceSnapTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +588,7 @@
 				A60FA2D21DDC481F00F0B680 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A60FA2D31DDC481F00F0B680 /* Build configuration list for PBXNativeTarget "FaceSnapUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,8 +597,22 @@
 				A60FA2D51DDC481F00F0B680 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A6C754C81DDCB17100A5D9E5 /* FaceSnap.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A6C754C91DDCB17100A5D9E5 /* FaceSnap.xcdatamodel */,
+			);
+			currentVersion = A6C754C91DDCB17100A5D9E5 /* FaceSnap.xcdatamodel */;
+			path = FaceSnap.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A60FA29D1DDC481F00F0B680 /* Project object */;
 }
