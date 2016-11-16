@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A60FA2A91DDC481F00F0B680 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60FA2A81DDC481F00F0B680 /* AppDelegate.swift */; };
+		A60FA2AB1DDC481F00F0B680 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60FA2AA1DDC481F00F0B680 /* ViewController.swift */; };
+		A60FA2AE1DDC481F00F0B680 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A60FA2AC1DDC481F00F0B680 /* Main.storyboard */; };
+		A60FA2B01DDC481F00F0B680 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A60FA2AF1DDC481F00F0B680 /* Assets.xcassets */; };
+		A60FA2B31DDC481F00F0B680 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A60FA2B11DDC481F00F0B680 /* LaunchScreen.storyboard */; };
+		A60FA2BE1DDC481F00F0B680 /* FaceSnapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60FA2BD1DDC481F00F0B680 /* FaceSnapTests.swift */; };
+		A60FA2C91DDC481F00F0B680 /* FaceSnapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60FA2C81DDC481F00F0B680 /* FaceSnapUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A60FA2BA1DDC481F00F0B680 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A60FA29D1DDC481F00F0B680 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A60FA2A41DDC481F00F0B680;
+			remoteInfo = FaceSnap;
+		};
+		A60FA2C51DDC481F00F0B680 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A60FA29D1DDC481F00F0B680 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A60FA2A41DDC481F00F0B680;
+			remoteInfo = FaceSnap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A60FA2A51DDC481F00F0B680 /* FaceSnap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceSnap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A60FA2A81DDC481F00F0B680 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A60FA2AA1DDC481F00F0B680 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A60FA2AD1DDC481F00F0B680 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A60FA2AF1DDC481F00F0B680 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A60FA2B21DDC481F00F0B680 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A60FA2B41DDC481F00F0B680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A60FA2B91DDC481F00F0B680 /* FaceSnapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceSnapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A60FA2BD1DDC481F00F0B680 /* FaceSnapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceSnapTests.swift; sourceTree = "<group>"; };
+		A60FA2BF1DDC481F00F0B680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A60FA2C41DDC481F00F0B680 /* FaceSnapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceSnapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A60FA2C81DDC481F00F0B680 /* FaceSnapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceSnapUITests.swift; sourceTree = "<group>"; };
+		A60FA2CA1DDC481F00F0B680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A60FA2A21DDC481F00F0B680 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60FA2B61DDC481F00F0B680 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60FA2C11DDC481F00F0B680 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A60FA29C1DDC481F00F0B680 = {
+			isa = PBXGroup;
+			children = (
+				A60FA2A71DDC481F00F0B680 /* FaceSnap */,
+				A60FA2BC1DDC481F00F0B680 /* FaceSnapTests */,
+				A60FA2C71DDC481F00F0B680 /* FaceSnapUITests */,
+				A60FA2A61DDC481F00F0B680 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A60FA2A61DDC481F00F0B680 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A60FA2A51DDC481F00F0B680 /* FaceSnap.app */,
+				A60FA2B91DDC481F00F0B680 /* FaceSnapTests.xctest */,
+				A60FA2C41DDC481F00F0B680 /* FaceSnapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A60FA2A71DDC481F00F0B680 /* FaceSnap */ = {
+			isa = PBXGroup;
+			children = (
+				A60FA2A81DDC481F00F0B680 /* AppDelegate.swift */,
+				A60FA2AA1DDC481F00F0B680 /* ViewController.swift */,
+				A60FA2AC1DDC481F00F0B680 /* Main.storyboard */,
+				A60FA2AF1DDC481F00F0B680 /* Assets.xcassets */,
+				A60FA2B11DDC481F00F0B680 /* LaunchScreen.storyboard */,
+				A60FA2B41DDC481F00F0B680 /* Info.plist */,
+			);
+			path = FaceSnap;
+			sourceTree = "<group>";
+		};
+		A60FA2BC1DDC481F00F0B680 /* FaceSnapTests */ = {
+			isa = PBXGroup;
+			children = (
+				A60FA2BD1DDC481F00F0B680 /* FaceSnapTests.swift */,
+				A60FA2BF1DDC481F00F0B680 /* Info.plist */,
+			);
+			path = FaceSnapTests;
+			sourceTree = "<group>";
+		};
+		A60FA2C71DDC481F00F0B680 /* FaceSnapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A60FA2C81DDC481F00F0B680 /* FaceSnapUITests.swift */,
+				A60FA2CA1DDC481F00F0B680 /* Info.plist */,
+			);
+			path = FaceSnapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A60FA2A41DDC481F00F0B680 /* FaceSnap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A60FA2CD1DDC481F00F0B680 /* Build configuration list for PBXNativeTarget "FaceSnap" */;
+			buildPhases = (
+				A60FA2A11DDC481F00F0B680 /* Sources */,
+				A60FA2A21DDC481F00F0B680 /* Frameworks */,
+				A60FA2A31DDC481F00F0B680 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceSnap;
+			productName = FaceSnap;
+			productReference = A60FA2A51DDC481F00F0B680 /* FaceSnap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A60FA2B81DDC481F00F0B680 /* FaceSnapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A60FA2D01DDC481F00F0B680 /* Build configuration list for PBXNativeTarget "FaceSnapTests" */;
+			buildPhases = (
+				A60FA2B51DDC481F00F0B680 /* Sources */,
+				A60FA2B61DDC481F00F0B680 /* Frameworks */,
+				A60FA2B71DDC481F00F0B680 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A60FA2BB1DDC481F00F0B680 /* PBXTargetDependency */,
+			);
+			name = FaceSnapTests;
+			productName = FaceSnapTests;
+			productReference = A60FA2B91DDC481F00F0B680 /* FaceSnapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A60FA2C31DDC481F00F0B680 /* FaceSnapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A60FA2D31DDC481F00F0B680 /* Build configuration list for PBXNativeTarget "FaceSnapUITests" */;
+			buildPhases = (
+				A60FA2C01DDC481F00F0B680 /* Sources */,
+				A60FA2C11DDC481F00F0B680 /* Frameworks */,
+				A60FA2C21DDC481F00F0B680 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A60FA2C61DDC481F00F0B680 /* PBXTargetDependency */,
+			);
+			name = FaceSnapUITests;
+			productName = FaceSnapUITests;
+			productReference = A60FA2C41DDC481F00F0B680 /* FaceSnapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A60FA29D1DDC481F00F0B680 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = zzheads;
+				TargetAttributes = {
+					A60FA2A41DDC481F00F0B680 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					A60FA2B81DDC481F00F0B680 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A60FA2A41DDC481F00F0B680;
+					};
+					A60FA2C31DDC481F00F0B680 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A60FA2A41DDC481F00F0B680;
+					};
+				};
+			};
+			buildConfigurationList = A60FA2A01DDC481F00F0B680 /* Build configuration list for PBXProject "FaceSnap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A60FA29C1DDC481F00F0B680;
+			productRefGroup = A60FA2A61DDC481F00F0B680 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A60FA2A41DDC481F00F0B680 /* FaceSnap */,
+				A60FA2B81DDC481F00F0B680 /* FaceSnapTests */,
+				A60FA2C31DDC481F00F0B680 /* FaceSnapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A60FA2A31DDC481F00F0B680 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A60FA2B31DDC481F00F0B680 /* LaunchScreen.storyboard in Resources */,
+				A60FA2B01DDC481F00F0B680 /* Assets.xcassets in Resources */,
+				A60FA2AE1DDC481F00F0B680 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60FA2B71DDC481F00F0B680 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60FA2C21DDC481F00F0B680 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A60FA2A11DDC481F00F0B680 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A60FA2AB1DDC481F00F0B680 /* ViewController.swift in Sources */,
+				A60FA2A91DDC481F00F0B680 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60FA2B51DDC481F00F0B680 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A60FA2BE1DDC481F00F0B680 /* FaceSnapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60FA2C01DDC481F00F0B680 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A60FA2C91DDC481F00F0B680 /* FaceSnapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A60FA2BB1DDC481F00F0B680 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A60FA2A41DDC481F00F0B680 /* FaceSnap */;
+			targetProxy = A60FA2BA1DDC481F00F0B680 /* PBXContainerItemProxy */;
+		};
+		A60FA2C61DDC481F00F0B680 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A60FA2A41DDC481F00F0B680 /* FaceSnap */;
+			targetProxy = A60FA2C51DDC481F00F0B680 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A60FA2AC1DDC481F00F0B680 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A60FA2AD1DDC481F00F0B680 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A60FA2B11DDC481F00F0B680 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A60FA2B21DDC481F00F0B680 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A60FA2CB1DDC481F00F0B680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A60FA2CC1DDC481F00F0B680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A60FA2CE1DDC481F00F0B680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FaceSnap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzheads.FaceSnap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A60FA2CF1DDC481F00F0B680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FaceSnap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzheads.FaceSnap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A60FA2D11DDC481F00F0B680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FaceSnapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzheads.FaceSnapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceSnap.app/FaceSnap";
+			};
+			name = Debug;
+		};
+		A60FA2D21DDC481F00F0B680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FaceSnapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzheads.FaceSnapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceSnap.app/FaceSnap";
+			};
+			name = Release;
+		};
+		A60FA2D41DDC481F00F0B680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FaceSnapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzheads.FaceSnapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FaceSnap;
+			};
+			name = Debug;
+		};
+		A60FA2D51DDC481F00F0B680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FaceSnapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzheads.FaceSnapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FaceSnap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A60FA2A01DDC481F00F0B680 /* Build configuration list for PBXProject "FaceSnap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A60FA2CB1DDC481F00F0B680 /* Debug */,
+				A60FA2CC1DDC481F00F0B680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A60FA2CD1DDC481F00F0B680 /* Build configuration list for PBXNativeTarget "FaceSnap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A60FA2CE1DDC481F00F0B680 /* Debug */,
+				A60FA2CF1DDC481F00F0B680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A60FA2D01DDC481F00F0B680 /* Build configuration list for PBXNativeTarget "FaceSnapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A60FA2D11DDC481F00F0B680 /* Debug */,
+				A60FA2D21DDC481F00F0B680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A60FA2D31DDC481F00F0B680 /* Build configuration list for PBXNativeTarget "FaceSnapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A60FA2D41DDC481F00F0B680 /* Debug */,
+				A60FA2D51DDC481F00F0B680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A60FA29D1DDC481F00F0B680 /* Project object */;
+}
