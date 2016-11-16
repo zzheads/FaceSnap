@@ -7,10 +7,11 @@
 //
 
 import UIKit
+import CoreData
 
 class PhotoListController: UIViewController {
 
-    lazy var cameraButton: UIButton = {
+    fileprivate lazy var cameraButton: UIButton = {
         let button = UIButton(type: .system)
         button.setTitle("Camera", for: .normal)
         button.tintColor = .white
@@ -20,17 +21,17 @@ class PhotoListController: UIViewController {
         return button
     }()
     
-    lazy var mediaPickerManager: MediaPickerManager = {
+    fileprivate lazy var mediaPickerManager: MediaPickerManager = {
         let manager = MediaPickerManager(presentingViewController: self)
         manager.delegate = self
         return manager
     }()
     
-    lazy var dataSource: PhotoDataSource = {
+    fileprivate lazy var dataSource: PhotoDataSource = {
         return PhotoDataSource(fetchRequest: Photo.allPhotosRequest, collectionView: self.collectionView)
     }()
     
-    lazy var collectionView: UICollectionView = {
+    fileprivate lazy var collectionView: UICollectionView = {
         let collectionViewLayout = UICollectionViewFlowLayout()
         
         let screenWidth = UIScreen.main.bounds.size.width
@@ -48,7 +49,8 @@ class PhotoListController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        setupNavigationBar()
+        
         collectionView.dataSource = dataSource
         self.automaticallyAdjustsScrollViewInsets = false
     }
@@ -75,12 +77,13 @@ class PhotoListController: UIViewController {
     
     // MARK: - Image Picker Controller
     
-    @objc private func presentImagePickerController() {
+    @objc fileprivate func presentImagePickerController() {
         mediaPickerManager.presentImagePickerController(animated: true)
     }
 }
 
 // MARK: - MediaPickerManagerDelegate
+
 extension PhotoListController: MediaPickerManagerDelegate {
     func mediaPickerManager(manager: MediaPickerManager, didFinishPickingImage image: UIImage) {
         let eaglContext = EAGLContext(api: .openGLES3)!
@@ -92,6 +95,38 @@ extension PhotoListController: MediaPickerManagerDelegate {
             self.present(navigationController, animated: true, completion: nil)
         }
     }
+}
+
+// MARK: - Navigation
+
+extension PhotoListController {
+    
+    fileprivate func setupNavigationBar() {
+        let sortTagsButton = UIBarButtonItem(title: "Tags", style: .plain, target: self, action: #selector(PhotoListController.presentSortController))
+        navigationItem.setRightBarButtonItems([sortTagsButton], animated: true)
+    }
+    
+    @ objc fileprivate func presentSortController() {
+        let tagDataSource = SortableDataSource<Tag>(fetchRequest: Tag.allTagsRequest, managetObjectContext: CoreDataController.sharedInstance.managedObjectContext)
+        let sortItemSelector = SortItemSelector(sortItems: tagDataSource.results)
+        let sortController = PhotoSortListController(dataSource: tagDataSource, sortItemSelector: sortItemSelector)
+        sortController.onSortSelection = { checkedItems in
+            if !checkedItems.isEmpty {
+                var predicates = [NSPredicate]()
+                for tag in checkedItems {
+                    let predicate = NSPredicate(format: "%K CONTAINS %@", "tags.title", tag.title)
+                    predicates.append(predicate)
+                }
+                let compoundPredicate = NSCompoundPredicate(type: .or, subpredicates: predicates)
+                self.dataSource.performFetch(withPredicate: compoundPredicate)
+            } else {
+                self.dataSource.performFetch(withPredicate: nil)
+            }
+        }
+        let navigationController = UINavigationController(rootViewController: sortController)
+        present(navigationController, animated: true, completion: nil)
+    }
+    
 }
 
 

@@ -27,6 +27,9 @@
 		A6C754D21DDCBEF500A5D9E5 /* PhotoDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C754D11DDCBEF500A5D9E5 /* PhotoDataSource.swift */; };
 		A6C754D41DDCBFA600A5D9E5 /* PhotoFetchedResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C754D31DDCBFA600A5D9E5 /* PhotoFetchedResultsController.swift */; };
 		A6C754D61DDCC23900A5D9E5 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C754D51DDCC23900A5D9E5 /* PhotoCell.swift */; };
+		A6C754D81DDCDD5A00A5D9E5 /* PhotoSortListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C754D71DDCDD5A00A5D9E5 /* PhotoSortListController.swift */; };
+		A6C754DA1DDCDFF300A5D9E5 /* SortableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C754D91DDCDFF300A5D9E5 /* SortableDataSource.swift */; };
+		A6C754DC1DDCF3E600A5D9E5 /* SortItemSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C754DB1DDCF3E600A5D9E5 /* SortItemSelector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +76,9 @@
 		A6C754D11DDCBEF500A5D9E5 /* PhotoDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDataSource.swift; sourceTree = "<group>"; };
 		A6C754D31DDCBFA600A5D9E5 /* PhotoFetchedResultsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoFetchedResultsController.swift; sourceTree = "<group>"; };
 		A6C754D51DDCC23900A5D9E5 /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		A6C754D71DDCDD5A00A5D9E5 /* PhotoSortListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSortListController.swift; sourceTree = "<group>"; };
+		A6C754D91DDCDFF300A5D9E5 /* SortableDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortableDataSource.swift; sourceTree = "<group>"; };
+		A6C754DB1DDCF3E600A5D9E5 /* SortItemSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortItemSelector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +165,7 @@
 				A60FA2D61DDC4C6300F0B680 /* MediaPickerManager.swift */,
 				A60FA2DE1DDC6B3600F0B680 /* FilteredImageBuilder.swift */,
 				A60FA2E41DDC95EC00F0B680 /* LocationManager.swift */,
+				A6C754DB1DDCF3E600A5D9E5 /* SortItemSelector.swift */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
@@ -180,6 +187,7 @@
 				A60FA2DC1DDC676E00F0B680 /* PhotoFilterController.swift */,
 				A60FA2E21DDC8FC200F0B680 /* PhotoMetadataController.swift */,
 				A6C754D31DDCBFA600A5D9E5 /* PhotoFetchedResultsController.swift */,
+				A6C754D71DDCDD5A00A5D9E5 /* PhotoSortListController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -192,6 +200,7 @@
 				A6C754CD1DDCB5FF00A5D9E5 /* Tag.swift */,
 				A6C754CF1DDCB61D00A5D9E5 /* Location.swift */,
 				A6C754D11DDCBEF500A5D9E5 /* PhotoDataSource.swift */,
+				A6C754D91DDCDFF300A5D9E5 /* SortableDataSource.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -329,8 +338,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6C754DC1DDCF3E600A5D9E5 /* SortItemSelector.swift in Sources */,
 				A6C754CE1DDCB5FF00A5D9E5 /* Tag.swift in Sources */,
 				A6C754D21DDCBEF500A5D9E5 /* PhotoDataSource.swift in Sources */,
+				A6C754DA1DDCDFF300A5D9E5 /* SortableDataSource.swift in Sources */,
 				A6C754CA1DDCB17100A5D9E5 /* FaceSnap.xcdatamodeld in Sources */,
 				A60FA2DF1DDC6B3600F0B680 /* FilteredImageBuilder.swift in Sources */,
 				A6C754D61DDCC23900A5D9E5 /* PhotoCell.swift in Sources */,
@@ -338,6 +349,7 @@
 				A60FA2E11DDC795000F0B680 /* FilteredImageCell.swift in Sources */,
 				A60FA2AB1DDC481F00F0B680 /* PhotoListController.swift in Sources */,
 				A6C754D01DDCB61D00A5D9E5 /* Location.swift in Sources */,
+				A6C754D81DDCDD5A00A5D9E5 /* PhotoSortListController.swift in Sources */,
 				A60FA2E51DDC95EC00F0B680 /* LocationManager.swift in Sources */,
 				A6C754C71DDCB06700A5D9E5 /* CoreDataController.swift in Sources */,
 				A6C754CC1DDCB47400A5D9E5 /* Photo.swift in Sources */,
