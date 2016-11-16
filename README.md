@@ -23,8 +23,8 @@ What you'll learn
 >####Adding Metadata to Photos
 >Storing just a selfie in an app is easy so we're going to step it up a notch and add some metadata to each photo. Over the >next set of videos, we'll create an interface that allows users to add both a location and tags to the photo. Using this >metadata we can later build in useful filtering functionality.
 
-####Saving and Displaying Selfies
+>####Saving and Displaying Selfies
 >Now that we've finally built up the UI and logic to take a selfie and add metadata to it, let's implement the saving >functionality. Over the next few videos, we'll add Core Data Entities to represent the various aspects of our model, create >NSManagedObject subclasses to interact with them in code and save the photos to disk
 
-####Filtering the Data
+>####Filtering the Data
 >There is no point to adding metadata to our photos if we're not going to use them in the app. Over the next set of videos, >let's implement some logic to allow a user to sort their main feed by tags. We'll do this using generic classes so they can >be reused for either a location, or future metadata types should we add them. Once we have a set of tags to sort by, we'll >reload the main screen dynamically!
